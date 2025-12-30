@@ -12,7 +12,7 @@
 
 
 
-//let score=null
+let score=null
 //let valueInNumber=Number(score)
 
 //console.log(typeof valueInNumber)
@@ -28,11 +28,11 @@ let isLoggedIn=1
 
 let booleanisLoggedIn=Boolean(isLoggedIn)
 
-console.log(typeof booleanisLoggedIn)
-console.log(booleanisLoggedIn)
+//console.log(typeof booleanisLoggedIn)
+//console.log(booleanisLoggedIn)
 
 let somenumber=68
 let stringnumber=String(somenumber)
-console.log(stringnumber)
-console.log(typeof stringnumber)
+//console.log(stringnumber)
+//console.log(typeof stringnumber)
 
