@@ -42,3 +42,16 @@ const user=[
         email:"email@agmial.com",
     }
 ]
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course// de structuring of object {}
+
+// console.log(courseInstructor);
+console.log(instructor);
