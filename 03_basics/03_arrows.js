@@ -3,35 +3,31 @@ const user = {
     price: 999,
 
     welcomeMessage: function() {
-        // console.log(`${this.username} , welcome to website`);
-        // console.log(this);// this tells us the context ..
+        console.log(`${this.username} , welcome to website`);
+        console.log(this);
     }
 
 }
 
-user.welcomeMessage()
-user.username = "sam"
-user.welcomeMessage()
+// user.welcomeMessage()
+// user.username = "sam"
+// user.welcomeMessage()
 
-// console.log(this); 
-// **if we run this on node.js then it will give us an empty object
-// **  run on browser it show us an window object..
+// console.log(this);
 
-function chai(){
-    let username="nick"
-    console.log(this.username)
-    // ****  whenever we run this under the function it will always show undefined.
+// function chai(){
+//     let username = "hitesh"
+//     console.log(this.username);
+// }
 
-}
 // chai()
 
+// const chai = function () {
+//     let username = "hitesh"
+//     console.log(this.username);
+// }
 
- const chai = function () {
- let username = "hitesh"
-    console.log(this.username);
-}
-
-const chai =  () => {// arrow function..
+const chai =  () => {
     let username = "hitesh"
     console.log(this);
 }
@@ -39,11 +35,11 @@ const chai =  () => {// arrow function..
 
 // chai()
 
-const addTwo = (num1, num2) => {// explicit
+// const addTwo = (num1, num2) => {
 //     return num1 + num2
 // }
 
-// const addTwo = (num1, num2) =>  num1 + num2  // implicit 
+// const addTwo = (num1, num2) =>  num1 + num2
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
