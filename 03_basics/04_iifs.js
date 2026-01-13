@@ -1,7 +1,11 @@
-(function chai(){
-    console.log("DB is connected")
-})(); // always use semicolon after thhis so we got to know here the function ends
+// Immediately Invoked Function Expressions (IIFE)
 
-(()=> {
-    console.log("DB is connected")
-})()
+
+(function chai(){
+    // named IIFE
+    console.log(`DB CONNECTED`);
+})();
+
+( (name) => {
+    console.log(`DB CONNECTED TWO ${name}`);
+} )('hitesh')
