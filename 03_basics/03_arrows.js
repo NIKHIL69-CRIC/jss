@@ -52,3 +52,15 @@ console.log(addTwo(3, 4))
 // const myArray = [2, 5, 3, 7, 8]
 
 // myArray.forEach()
+function outer() {
+    this.name = "Nikhil";
+
+    const inner = () => {
+        console.log(this.name);
+    };
+
+    inner();
+}
+
+outer(); // ✅ Nikhil
+// here arrow function inherit this fromouter..
