@@ -19,7 +19,7 @@ form.addEventListener('subit',function(e){
     else{
         const  BMI=(weight/ ((height*height/ 10000))).toFixed(2);
 
-        results.innerHTML=<span>${BMI}</span>
+        results.innerHTML=`<span>${BMI}</span>`
         }
 
 
