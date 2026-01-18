@@ -1,6 +1,6 @@
 const form= document.querySelector('form')
 
-form.addEventListener('subit',function(e){
+form.addEventListener('submit',function(e){
     e.preventDefault(); // we dont want to check on the sever...
 
     const height= parseInt(document.querySelector('#height'). value)
@@ -21,8 +21,4 @@ form.addEventListener('subit',function(e){
 
         results.innerHTML=`<span>${BMI}</span>`
         }
-
-
-
-
 })
